@@ -1,0 +1,6 @@
+[build]
+  publish = "src/"
+  command = "echo 'default context'"
+
+[functions]
+  directory = "functions"
