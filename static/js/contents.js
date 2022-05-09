@@ -164,7 +164,7 @@ function populateEncyclopediaContents() {
           // Add dropdown arrow to the parent 
           var dropdownArrow = document.createElement("div");
           dropdownArrow.classList.add("contents-arrow-box");
-          dropdownArrow.innerHTML = '<img src="static/images/arrow.svg" alt="" class="contents-arrow-down">'; // Default class is down arrow for a collapsed menu
+          dropdownArrow.innerHTML = '<img src="./placeholder/images/arrow.svg" alt="" class="contents-arrow-down">'; // Default class is down arrow for a collapsed menu
 
           // ul for the child pages
           var children = document.createElement("ul");
@@ -197,7 +197,7 @@ function populateEncyclopediaContents() {
       }
 
       // Append the li
-      encyclopediaContentsUL.appendChild(li);
+      // encyclopediaContentsUL.appendChild(li);
   });
 }
 
