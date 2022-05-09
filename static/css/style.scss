@@ -1,3 +1,7 @@
+$black: black;
+$whitesmoke: whitesmoke;
+$qaranta: qaranta, qaranta_bold, "Exo 2", Arial, Helvetica, sans-serif;
+
 /* 
 _____HTML_____________________________________________________________________________ */
 /* ================================================================================== */
@@ -15,7 +19,7 @@ html {
       "Helvetica Neue", Arial, sans-serif,
       /* Emoji fonts */
       "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-      color: whitesmoke;
+      color: $whitesmoke;
 }
 
 html, body {
@@ -25,7 +29,7 @@ html, body {
   /* width: 100%; */
   /* height: 100%; */
   min-width: 300px;
-  background-color: black;
+  background-color: $black;
 }
 
 
@@ -48,15 +52,15 @@ _____Text_______________________________________________________________________
 }
 
 h1 {
-  font-family: qaranta, qaranta_bold, "Exo 2", Arial, Helvetica, sans-serif;
-  color: whitesmoke;
+  font-family: $qaranta;
+  color: $whitesmoke;
   margin: .67em 0;
   box-sizing: border-box;
 }
 
 h2, h3, h4, h5, h6 {
   font-family: taurus_monoregular, "Exo 2", Arial, Helvetica, sans-serif;
-  color: whitesmoke;
+  color: $whitesmoke;
 }
 
 p, a {
@@ -102,7 +106,7 @@ _____Starfield Site Background__________________________________________________
   /* left: 0; */
   /* bottom: 0; */
   /* right: 0; */
-  background-color: black;
+  background-color: $black;
   -webkit-background-size: 100%; 
   -moz-background-size: 100%; 
   -o-background-size: 100%; 
@@ -133,7 +137,7 @@ _____Header_____________________________________________________________________
 }
 
 #site-title {
-  font-family: qaranta, qaranta_bold, "Exo 2", Arial, Helvetica, sans-serif;
+  font-family: $qaranta;
   /* color: #75dceb; */
   position: relative;
   font-size: 4.25em;
