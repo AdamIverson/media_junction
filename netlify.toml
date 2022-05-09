@@ -1,6 +1,6 @@
 [build]
   base = "media_junction/"
-  publish = "media_junction/"
+  publish = "index.html"
   command = "echo 'default context'"
 
 [functions]
